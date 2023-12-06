@@ -1,11 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: #FF66CC;
+    color: black;
+    font-size: 18px;
+}
+
+body {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 footer {
     position: fixed;
-    bottom: 0px;
-    width: 100%;
-    
+    bottom: 50px;
+    width: calc(100% - 100px);
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+a:hover {
+    color: white;
 }
